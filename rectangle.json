@@ -1,0 +1,12 @@
+{
+  "rectangles": [
+    {
+      "startPoint": {"x": 10, "y": 20},
+      "endPoint": {"x": 110, "y": 220},
+      "orientation": "landscape",
+      "color": "#9747FFFF",
+      "sortOrder": 2
+    }
+  ]
+}
+

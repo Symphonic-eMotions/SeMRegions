@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C0817BF2B1E8973009F2AE3 /* rectangles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B86462B1E819E0075E0E5 /* rectangles.json */; };
+		7C3C8A462B206C1200133750 /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B864A2B1E83770075E0E5 /* FileUtility.swift */; };
+		7C3C8A492B206C1800133750 /* PercentageRectangleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B86302B1E788F0075E0E5 /* PercentageRectangleCollection.swift */; };
+		7C3C8A4A2B206C1F00133750 /* PercentageRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B86322B1E78A80075E0E5 /* PercentageRectangle.swift */; };
+		7C3C8A4B2B206C3C00133750 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B863E2B1E79F20075E0E5 /* DocumentPicker.swift */; };
+		7C3C8A4C2B206C4000133750 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B863A2B1E79500075E0E5 /* CameraViewController.swift */; };
+		7C3C8A4D2B206C4400133750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B86222B1E765C0075E0E5 /* ContentView.swift */; };
+		7C3C8A4E2B206C4700133750 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B86372B1E79150075E0E5 /* CameraView.swift */; };
+		7C3C8A4F2B206C4B00133750 /* RectangleDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B863C2B1E799A0075E0E5 /* RectangleDrawingView.swift */; };
+		7C3C8A502B206C4E00133750 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B86402B1E7A1E0075E0E5 /* MenuButton.swift */; };
+		7C3C8A522B20B83500133750 /* RectangleCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C8A512B20B83500133750 /* RectangleCollectionViewModel.swift */; };
+		7C3C8A542B20C21D00133750 /* rectangle.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C8A532B20C21D00133750 /* rectangle.json */; };
+		7C3C8A562B20FFD600133750 /* RectangleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C8A552B20FFD600133750 /* RectangleData.swift */; };
+		7C3C8A582B2101AB00133750 /* RectangleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C8A572B2101AB00133750 /* RectangleViewModel.swift */; };
+		7C3C8A5A2B2101D900133750 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C8A592B2101D900133750 /* RectangleView.swift */; };
+		7C3C8A5C2B21047D00133750 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C8A5B2B21047D00133750 /* JSONService.swift */; };
+		7C3C8A5E2B2107CE00133750 /* rectanglesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C8A5D2B2107CE00133750 /* rectanglesData.json */; };
+		7C6C26E42B2A026C00CE4A38 /* DraggableRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C26E32B2A026C00CE4A38 /* DraggableRectangleView.swift */; };
+		7C6C26E62B2A02D400CE4A38 /* ResizeHandlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C26E52B2A02D400CE4A38 /* ResizeHandlesView.swift */; };
+		7C6C26E82B30F71700CE4A38 /* Chatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C26E72B30F71700CE4A38 /* Chatting.swift */; };
+		7C81C4A22B31050E00AAAF4C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C81C4A12B31050E00AAAF4C /* Color.swift */; };
+		7C81C4A82B3105BC00AAAF4C /* SeMRegionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B864E2B1E85B40075E0E5 /* SeMRegionsApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C3C8A512B20B83500133750 /* RectangleCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCollectionViewModel.swift; sourceTree = "<group>"; };
+		7C3C8A532B20C21D00133750 /* rectangle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rectangle.json; sourceTree = "<group>"; };
+		7C3C8A552B20FFD600133750 /* RectangleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleData.swift; sourceTree = "<group>"; };
+		7C3C8A572B2101AB00133750 /* RectangleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewModel.swift; sourceTree = "<group>"; };
+		7C3C8A592B2101D900133750 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		7C3C8A5B2B21047D00133750 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
+		7C3C8A5D2B2107CE00133750 /* rectanglesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rectanglesData.json; sourceTree = "<group>"; };
+		7C5B861D2B1E765C0075E0E5 /* SeMRegions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeMRegions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5B86222B1E765C0075E0E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C5B86242B1E765D0075E0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C5B86302B1E788F0075E0E5 /* PercentageRectangleCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageRectangleCollection.swift; sourceTree = "<group>"; };
+		7C5B86322B1E78A80075E0E5 /* PercentageRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageRectangle.swift; sourceTree = "<group>"; };
+		7C5B86372B1E79150075E0E5 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7C5B863A2B1E79500075E0E5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7C5B863C2B1E799A0075E0E5 /* RectangleDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDrawingView.swift; sourceTree = "<group>"; };
+		7C5B863E2B1E79F20075E0E5 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		7C5B86402B1E7A1E0075E0E5 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		7C5B86422B1E7C5A0075E0E5 /* SeMRegions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeMRegions.entitlements; sourceTree = "<group>"; };
+		7C5B86462B1E819E0075E0E5 /* rectangles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rectangles.json; sourceTree = "<group>"; };
+		7C5B864A2B1E83770075E0E5 /* FileUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
+		7C5B864E2B1E85B40075E0E5 /* SeMRegionsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeMRegionsApp.swift; sourceTree = "<group>"; };
+		7C6C26E32B2A026C00CE4A38 /* DraggableRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableRectangleView.swift; sourceTree = "<group>"; };
+		7C6C26E52B2A02D400CE4A38 /* ResizeHandlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeHandlesView.swift; sourceTree = "<group>"; };
+		7C6C26E72B30F71700CE4A38 /* Chatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatting.swift; sourceTree = "<group>"; };
+		7C81C4A12B31050E00AAAF4C /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C5B861A2B1E765C0075E0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C3C8A482B206C1800133750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C5B86142B1E765C0075E0E5 = {
+			isa = PBXGroup;
+			children = (
+				7C6C26E72B30F71700CE4A38 /* Chatting.swift */,
+				7C3C8A5D2B2107CE00133750 /* rectanglesData.json */,
+				7C3C8A532B20C21D00133750 /* rectangle.json */,
+				7C5B86462B1E819E0075E0E5 /* rectangles.json */,
+				7C5B861F2B1E765C0075E0E5 /* SeMRegions */,
+				7C5B861E2B1E765C0075E0E5 /* Products */,
+				7C3C8A482B206C1800133750 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C5B861E2B1E765C0075E0E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B861D2B1E765C0075E0E5 /* SeMRegions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C5B861F2B1E765C0075E0E5 /* SeMRegions */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B86422B1E7C5A0075E0E5 /* SeMRegions.entitlements */,
+				7C5B864E2B1E85B40075E0E5 /* SeMRegionsApp.swift */,
+				7C5B86492B1E83570075E0E5 /* Utilities */,
+				7C81C4A02B31050E00AAAF4C /* Extensions */,
+				7C5B862F2B1E786E0075E0E5 /* Structures */,
+				7C5B86392B1E792F0075E0E5 /* Models */,
+				7C5B862E2B1E782A0075E0E5 /* Views */,
+				7C5B86242B1E765D0075E0E5 /* Assets.xcassets */,
+				7C81C4A92B3106D200AAAF4C /* Preview Content */,
+			);
+			path = SeMRegions;
+			sourceTree = "<group>";
+		};
+		7C5B862E2B1E782A0075E0E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B86222B1E765C0075E0E5 /* ContentView.swift */,
+				7C5B86372B1E79150075E0E5 /* CameraView.swift */,
+				7C5B863C2B1E799A0075E0E5 /* RectangleDrawingView.swift */,
+				7C5B86402B1E7A1E0075E0E5 /* MenuButton.swift */,
+				7C6C26E32B2A026C00CE4A38 /* DraggableRectangleView.swift */,
+				7C3C8A592B2101D900133750 /* RectangleView.swift */,
+				7C6C26E52B2A02D400CE4A38 /* ResizeHandlesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C5B862F2B1E786E0075E0E5 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B86302B1E788F0075E0E5 /* PercentageRectangleCollection.swift */,
+				7C5B86322B1E78A80075E0E5 /* PercentageRectangle.swift */,
+				7C5B863E2B1E79F20075E0E5 /* DocumentPicker.swift */,
+				7C3C8A552B20FFD600133750 /* RectangleData.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		7C5B86392B1E792F0075E0E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B863A2B1E79500075E0E5 /* CameraViewController.swift */,
+				7C3C8A512B20B83500133750 /* RectangleCollectionViewModel.swift */,
+				7C3C8A572B2101AB00133750 /* RectangleViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C5B86492B1E83570075E0E5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B864A2B1E83770075E0E5 /* FileUtility.swift */,
+				7C3C8A5B2B21047D00133750 /* JSONService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7C81C4A02B31050E00AAAF4C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7C81C4A12B31050E00AAAF4C /* Color.swift */,
+			);
+			name = Extensions;
+			path = SeMRegions/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C81C4A92B3106D200AAAF4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C5B861C2B1E765C0075E0E5 /* SeMRegions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5B862B2B1E765D0075E0E5 /* Build configuration list for PBXNativeTarget "SeMRegions" */;
+			buildPhases = (
+				7C5B86192B1E765C0075E0E5 /* Sources */,
+				7C5B861A2B1E765C0075E0E5 /* Frameworks */,
+				7C5B861B2B1E765C0075E0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeMRegions;
+			productName = SeMRegions;
+			productReference = 7C5B861D2B1E765C0075E0E5 /* SeMRegions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C5B86152B1E765C0075E0E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7C5B861C2B1E765C0075E0E5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7C5B86182B1E765C0075E0E5 /* Build configuration list for PBXProject "SeMRegions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C5B86142B1E765C0075E0E5;
+			productRefGroup = 7C5B861E2B1E765C0075E0E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C5B861C2B1E765C0075E0E5 /* SeMRegions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C5B861B2B1E765C0075E0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3C8A5E2B2107CE00133750 /* rectanglesData.json in Resources */,
+				7C0817BF2B1E8973009F2AE3 /* rectangles.json in Resources */,
+				7C3C8A542B20C21D00133750 /* rectangle.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C5B86192B1E765C0075E0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3C8A582B2101AB00133750 /* RectangleViewModel.swift in Sources */,
+				7C3C8A462B206C1200133750 /* FileUtility.swift in Sources */,
+				7C3C8A492B206C1800133750 /* PercentageRectangleCollection.swift in Sources */,
+				7C81C4A82B3105BC00AAAF4C /* SeMRegionsApp.swift in Sources */,
+				7C6C26E82B30F71700CE4A38 /* Chatting.swift in Sources */,
+				7C3C8A4A2B206C1F00133750 /* PercentageRectangle.swift in Sources */,
+				7C3C8A4B2B206C3C00133750 /* DocumentPicker.swift in Sources */,
+				7C3C8A5C2B21047D00133750 /* JSONService.swift in Sources */,
+				7C3C8A522B20B83500133750 /* RectangleCollectionViewModel.swift in Sources */,
+				7C3C8A4C2B206C4000133750 /* CameraViewController.swift in Sources */,
+				7C3C8A5A2B2101D900133750 /* RectangleView.swift in Sources */,
+				7C3C8A4D2B206C4400133750 /* ContentView.swift in Sources */,
+				7C81C4A22B31050E00AAAF4C /* Color.swift in Sources */,
+				7C3C8A562B20FFD600133750 /* RectangleData.swift in Sources */,
+				7C6C26E42B2A026C00CE4A38 /* DraggableRectangleView.swift in Sources */,
+				7C3C8A4E2B206C4700133750 /* CameraView.swift in Sources */,
+				7C3C8A4F2B206C4B00133750 /* RectangleDrawingView.swift in Sources */,
+				7C6C26E62B2A02D400CE4A38 /* ResizeHandlesView.swift in Sources */,
+				7C3C8A502B206C4E00133750 /* MenuButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C5B86292B1E765D0075E0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C5B862A2B1E765D0075E0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C5B862C2B1E765D0075E0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeMRegions/SeMRegions.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeMRegions/Preview Content\"";
+				DEVELOPMENT_TEAM = JJM4XR9TZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeMRegions/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gimme Camera!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.symphonic-emotions.SeMRegions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C5B862D2B1E765D0075E0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeMRegions/SeMRegions.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeMRegions/Preview Content\"";
+				DEVELOPMENT_TEAM = JJM4XR9TZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeMRegions/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gimme Camera!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.symphonic-emotions.SeMRegions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C5B86182B1E765C0075E0E5 /* Build configuration list for PBXProject "SeMRegions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5B86292B1E765D0075E0E5 /* Debug */,
+				7C5B862A2B1E765D0075E0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5B862B2B1E765D0075E0E5 /* Build configuration list for PBXNativeTarget "SeMRegions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5B862C2B1E765D0075E0E5 /* Debug */,
+				7C5B862D2B1E765D0075E0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C5B86152B1E765C0075E0E5 /* Project object */;
+}

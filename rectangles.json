@@ -1,0 +1,26 @@
+{
+  "rectangles": [
+    {
+      "startPoint": {"x": 10, "y": 20},
+      "endPoint": {"x": 110, "y": 220},
+      "orientation": "landscape",
+      "color": "#9747FFFF",
+      "sortOrder": 2
+    },
+    {
+      "startPoint": {"x": 15, "y": 25},
+      "endPoint": {"x": 115, "y": 225},
+      "orientation": "portrait",
+      "color": "#47FFD8FF",
+      "sortOrder": 1
+    },
+    {
+      "startPoint": {"x": 20, "y": 30},
+      "endPoint": {"x": 120, "y": 230},
+      "orientation": "landscape",
+      "color": "#FFBE47FF",
+      "sortOrder": 3
+    }
+  ]
+}
+
